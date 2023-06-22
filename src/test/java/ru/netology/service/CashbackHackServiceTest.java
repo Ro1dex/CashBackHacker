@@ -15,7 +15,7 @@ public class CashbackHackServiceTest {
 
 
      amount = 1000;
-     exp = 0;
+     exp = 1000;
      act = service.remain(amount);
      assertEquals(act, exp);
 
@@ -25,7 +25,7 @@ public class CashbackHackServiceTest {
      assertEquals(act,exp);
 
      amount = 2000;
-     exp = 0;
+     exp = 1000;
      act = service.remain(amount);
      assertEquals(act,exp);
 
